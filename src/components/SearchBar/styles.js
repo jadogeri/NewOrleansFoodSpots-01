@@ -1,9 +1,9 @@
-import React from "react";
-import { StyleSheet } from "react-native-web";
+import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
 
     background: {
+        marginTop:10,
         backgroundColor: 'gray',
         height :50,
         borderRadius: 5,
@@ -15,8 +15,12 @@ const styles = StyleSheet.create({
     magnifyingGlass:{
         fontSize:40,
         alignSelf: 'center',
-        marginHorizontal:5
+        marginHorizontal:10
 
+    },
+    input:{
+        fontSize:10,
+        flex:1
     }
 
 });
