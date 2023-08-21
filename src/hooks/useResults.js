@@ -26,7 +26,7 @@ export default () => {
     }
 
     useEffect(() => {
-        searchApi('pizza')
+        searchApi('chicken')
     }, [])
 
 
