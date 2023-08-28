@@ -1,4 +1,4 @@
-import yelp from "../api/yelp"
+import {api_search_url} from "../api/yelp"
 import { useState, useEffect } from "react"
 
 export default () => {
@@ -7,15 +7,11 @@ export default () => {
 
     const searchApi = async (searchTerm) => {
         try {
-            const response = await yelp.get('/search', {
-                params: {
-                    limit: 50,
-                    term: searchTerm,
-                    location: "new orleans"
-                }
-            }
-            )
-            setResults(response.data.businesses)
+           
+            const response = await  fetch(api_search_url + `${searchTerm}`);
+            let data = await response.json();
+
+            setResults(data.businesses)
             setErrorMessage('')
         } catch (e) {
             console.log('something went wrong terminal')

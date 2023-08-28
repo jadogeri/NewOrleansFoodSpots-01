@@ -21,7 +21,8 @@ const styles = StyleSheet.create({
     },
     input:{
         fontSize:10,
-        flex:1
+        flex:1,
+        width:500
     }
 
 });

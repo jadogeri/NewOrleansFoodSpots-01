@@ -26,18 +26,17 @@ const SearchScreen = () => {
 
         <SearchBar searchTerm={searchTerm}
             onTermChange={(newTerm) => { setSearchTerm(newTerm) }}
-            onSearchTermSubmit={() => searchApi(searchTerm)} />
+        />
+        <Button title="Search" onPress={()=>{searchApi(searchTerm)}}/>
+
         {errorMessage ? <Text>{errorMessage} </Text> : null}
         <Text>the number of items in array are {results.length}</Text>
         <ResultsList results={filterResultsByPrice('$')} headerText="Budget Options" />
         <ResultsList results={filterResultsByPrice('$$')} headerText="Kinda Pricey" />
         <ResultsList results={filterResultsByPrice('$$$')} headerText="$$$  wowza $$$" />
-
-
+        <ResultsList results={filterResultsByPrice('$$$$')} headerText="Extravagant" />
 
     </ScrollView>
 }
-
-
 
 export default SearchScreen;

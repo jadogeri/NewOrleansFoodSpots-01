@@ -2,6 +2,7 @@ import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import SearchScreen from "./src/screens/SearchScreen/SearchScreen";
 import ResultsShowScreen from "./src/screens/ResultsShowScreen/ResultsShowScreen";
+import TestScreen from "./src/screens/Test/Test";
 
 
 //in this file we have three route names
@@ -11,8 +12,8 @@ const navigator = createStackNavigator(
   {
    
     Search: SearchScreen,
-    ResultsShow:ResultsShowScreen
-
+    ResultsShow:ResultsShowScreen,
+    Test:TestScreen
   },
   {
     initialRouteName: "Search",
