@@ -3,6 +3,7 @@ import {View, Text, FlatList, Image} from "react-native-web"
 import styles from "./styles"
 import {api_root } from "../../api/yelp"
 import Location from "../../components/Location/Location";
+import Footer from "../../layout/Footer/Footer";
 
 const ResultsShowScreen = (props)=>{
     const [result,setResult] = useState(null);
@@ -37,7 +38,7 @@ const ResultsShowScreen = (props)=>{
             state ={result.location.state}
             zip_code ={result.location.zip_code}
         />
-
+        
     </View>
 
 }
