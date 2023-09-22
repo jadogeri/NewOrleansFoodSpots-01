@@ -1,7 +1,9 @@
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-import SearchScreen from "./src/screens/SearchScreen/SearchScreen";
-import ResultsShowScreen from "./src/screens/ResultsShowScreen/ResultsShowScreen";
+import HomeScreen from "./src/screens/Home/HomeScreen";
+import ModeScreen from  "./src/screens/Mode/ModeScreen";
+import StageScreen from "./src/screens/Stage/StageScreen";
+import CharacterScreen from "./src/screens/Character/CharacterScreen";
 
 
 //in this file we have three route names
@@ -9,17 +11,21 @@ import ResultsShowScreen from "./src/screens/ResultsShowScreen/ResultsShowScreen
 // which will be diplayed to the screen immediately using navigate function
 const navigator = createStackNavigator(
   {   
-    Search: SearchScreen,
-    ResultsShow:ResultsShowScreen
+    Home: HomeScreen,
+    Mode: ModeScreen,
+    Stage: StageScreen,
+    Character: CharacterScreen
   },
   {
-    initialRouteName: "Search",
+    initialRouteName: "Mode",
     defaultNavigationOptions: {
-      title: "New Orleans Food Spots",
+      title: "Mortal Kombat",
     },
   }
 );
 
-export default createAppContainer(navigator);
+const App = createAppContainer(navigator);
+export default App;
+
 
 

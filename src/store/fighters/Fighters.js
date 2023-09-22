@@ -1,0 +1,23 @@
+const Fighters = [
+
+	{ key: 1, name: 'ashrah', big_image: require('../../../assets/big_fighter_images/ashrah.jpg'), small_image: require('../../../assets/small_fighter_icons/ashrah.jpg'),health:100,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0},
+	{ key: 2, name: 'cyrax', big_image: require('../../../assets/big_fighter_images/cyrax.jpg'), small_image: require('../../../assets/small_fighter_icons/cyrax.jpg'),health:100,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 3, name: 'kabal', big_image: require('../../../assets/big_fighter_images/kabal.jpg'), small_image: require('../../../assets/small_fighter_icons/kabal.jpg'),health:100,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 5, name: 'baraka', big_image: require('../../../assets/big_fighter_images/baraka.jpg'), small_image: require('../../../assets/small_fighter_icons/baraka.jpg'),health:100,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 6, name: 'cyrax', big_image: require('../../../assets/big_fighter_images/cyrax.jpg'), small_image: require('../../../assets/small_fighter_icons/cyrax.jpg'),health:100,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 7, name: 'kabal', big_image: require('../../../assets/big_fighter_images/kabal.jpg'), small_image: require('../../../assets/small_fighter_icons/kabal.jpg'),health:100,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 8, name: 'baraka', big_image: require('../../../assets/big_fighter_images/baraka.jpg'), small_image: require('../../../assets/small_fighter_icons/baraka.jpg'),health:100,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 9, name: 'cyrax', big_image: require('../../../assets/big_fighter_images/cyrax.jpg'), small_image: require('../../../assets/small_fighter_icons/cyrax.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0 ,maxPoints:0},
+	{ key: 10, name: 'kabal', big_image: require('../../../assets/big_fighter_images/kabal.jpg'), small_image: require('../../../assets/small_fighter_icons/kabal.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 11, name: 'baraka', big_image: require('../../../assets/big_fighter_images/baraka.jpg'), small_image: require('../../../assets/small_fighter_icons/baraka.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 12, name: 'cyrax', big_image: require('../../../assets/big_fighter_images/cyrax.jpg'), small_image: require('../../../assets/small_fighter_icons/cyrax.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0 ,maxPoints:0},
+	{ key: 13, name: 'kabal', big_image: require('../../../assets/big_fighter_images/kabal.jpg'), small_image: require('../../../assets/small_fighter_icons/kabal.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 15, name: 'baraka', big_image: require('../../../assets/big_fighter_images/baraka.jpg'), small_image: require('../../../assets/small_fighter_icons/baraka.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 16, name: 'cyrax', big_image: require('../../../assets/big_fighter_images/cyrax.jpg'), small_image: require('../../../assets/small_fighter_icons/cyrax.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 17, name: 'kabal', big_image: require('../../../assets/big_fighter_images/kabal.jpg'), small_image: require('../../../assets/small_fighter_icons/kabal.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 18, name: 'baraka', big_image: require('../../../assets/big_fighter_images/baraka.jpg'), small_image: require('../../../assets/small_fighter_icons/baraka.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 },
+	{ key: 19, name: 'cyrax', big_image: require('../../../assets/big_fighter_images/cyrax.jpg'), small_image: require('../../../assets/small_fighter_icons/cyrax.jpg') ,health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0},
+	{ key: 20, name: 'kabal', big_image: require('../../../assets/big_fighter_images/kabal.jpg'), small_image: require('../../../assets/small_fighter_icons/kabal.jpg'),health:0,recovery:0,powergen:0,attack:0,toughness:0,totalPoints:0,maxPoints:0 }
+]
+
+export default Fighters;
