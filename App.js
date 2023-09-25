@@ -2,15 +2,18 @@ import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import SearchScreen from "./src/screens/SearchScreen/SearchScreen";
 import ResultsShowScreen from "./src/screens/ResultsShowScreen/ResultsShowScreen";
+import HomeScreen from "./src/screens/HomeScreen/HomeScreen";
+import ContactScreen from "./src/screens/Contact/ContactScreen";
+import AboutScreen from "./src/screens/About/AboutScreen";
 
 
-//in this file we have three route names
-//Home, components and Lists are keys ** route names**
-// which will be diplayed to the screen immediately using navigate function
 const navigator = createStackNavigator(
   {   
     Search: SearchScreen,
-    ResultsShow:ResultsShowScreen
+    ResultsShow:ResultsShowScreen,
+    Home:HomeScreen,
+    About : AboutScreen,
+    Contact : ContactScreen
   },
   {
     initialRouteName: "Search",
